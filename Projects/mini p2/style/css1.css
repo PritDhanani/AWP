@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.pimg {
+    
+    background: url("../image/1.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.ptext {
+    font-family: sans-serif;
+    text-transform:capitalize;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.border {
+    display: block;
+    position: absolute;
+    top: 29%;
+    width: 37%;
+    margin-left: 31%;
+    border: 3px solid white;
+    columns: 50;
+    height: 55%;
+    text-align: center;
+    
+}
+#text {
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    position: absolute;
+    margin-left:35%;
+    margin-top: 10%;
+    font-size: 21px
+}
+
+#down {
+    background-color: transparent;
+    position: absolute;
+    border: 1px solid transparent; 
+    margin-top: 56%;
+    margin-left: 21%;
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding:10px 15px;
+}
+#down:hover {
+    background-color:rgba(255,255,1,0.5)
+}
+
+#add {
+    position: absolute;
+    margin-top: 56%;
+    margin-left: 56%;
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding:10px 15px;
+}
+#add:hover {
+    background-color:rgba(255,255,1,0.5)
+}
+#count{
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    margin-left:44%;
+    margin-top: 21%;
+    font-size: 120px;
+}
